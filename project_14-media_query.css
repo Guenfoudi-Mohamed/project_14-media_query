@@ -1,6 +1,6 @@
 *{margin: 0px;padding: 0px;box-sizing: border-box;outline: none;text-decoration: none;list-style: none;}
 /* start body */
-body{font-family: 'Karla', sans-serif;max-width: 1440px;margin: 0 auto;min-height: 100vh;}
+body{font-family: 'Karla', sans-serif;max-width: 1440px;margin: 0 auto;min-height: 100vh;display: flex;justify-content: space-between;align-items: center;flex-direction: column;}
 body input[id="check_list"]{display:none;}
 body input[id="check_list"]:checked ~ .list_navbar_move{left: 100%;}
 body input[id="check_list"]:checked ~ header[class="header_top"]{visibility: visible;}
