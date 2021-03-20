@@ -28,12 +28,12 @@ body > .list_navbar_move .header_bottom_move .container_move .list li:last-child
 @media(min-width:280px) and (max-width:780px){
     body > .list_navbar_move .header_bottom_move .container_move .humbrger{display: flex;}
 }
-@media(min-width:781px) and (max-width:1440px){
+@media(min-width:781px) and (max-width:14400px){
     body > .list_navbar_move{left: 100%;}
     header[class="header_top"]{visibility: visible;}
 }
     /* start header_top */
-body .list_navbar_move + .header_top{width: 100%;background-color: #fff;height: 80px;min-height: 80px;border: 1px solid rgb(128, 157, 184);position:sticky;top: 0px;z-index: 2;visibility: visible;}
+body .list_navbar_move + .header_top{width: 100%;background-color: #fff;height: 80px;min-height: 80px;position:sticky;top: 0px;z-index: 2;visibility: visible;}
 body .list_navbar_move + .header_top .container{width: 80%;min-height: inherit; margin:0px auto;display: flex;justify-content: space-between;align-items: center;position: relative;}
 body .list_navbar_move + .header_top .container .logo svg{display: block;margin-left: 1px;}
         /* start humbrger */
